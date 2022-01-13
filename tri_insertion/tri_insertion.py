@@ -5,7 +5,6 @@ def triInsert(a):
         while i >= 0 and a[i] > cle:
             a[i+1] = a[i]
             i = i - 1
-        print(i)
         a[i+1] = cle
     print(a)
 
